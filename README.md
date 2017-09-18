@@ -30,8 +30,7 @@ Creates a new job with the specified URL.
 POST /job
 Host: http://localhost:8000
 Content-Type: application/json
-
-{"url": "www.cnn.com"}
+Body: {"url": "www.cnn.com"}
 ```
 
 #### Example Response
